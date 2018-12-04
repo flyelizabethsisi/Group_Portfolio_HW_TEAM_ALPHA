@@ -19,7 +19,8 @@
         <activity android:name=".ElizabethPortfolio" />
         <activity android:name=".CliffPortfolio" />
         <activity android:name=".EnriquePortfolio" />
-        <activity android:name=".TalhaPortfolio"></activity>
+        <activity android:name=".TalhaPortfolio" />
+        <activity android:name=".Splash"></activity>
     </application>
 
 </manifest>

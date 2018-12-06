@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EnriquePortfolio">
-
+    <!--The image is Enrique's-->
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="235dp"
@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:srcCompat="@drawable/enrique1" />
-
+    <!--The textview that has Enrique's name ontop-->
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -24,30 +24,30 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="monospace"
-        android:text="Enrique CRUZ"
+        android:text="@string/enrique_name"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <!--The textview has Enrique's biography-->
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="monospace"
-        android:text="Hello.....Here is my biography..."
+        android:scrollbars="vertical"
+        android:text="@string/biography"
         android:textColor="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
+    <!--The button connects to a github account-->
     <Button
         android:id="@+id/button2"
         android:layout_width="171dp"
@@ -55,12 +55,12 @@
         android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
         android:fontFamily="monospace"
-        android:text="3 Github projects"
+        android:text="@string/enrique_project"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
+    <!--This button goes back to the home page-->
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"

@@ -2,5 +2,9 @@
     <string name="app_name">Group_Portfolio_HW_Team_Alpha</string>
     <!--Enrique's Portfolio Texts-->
     <string name="enrique_name">Enrique CRUZ</string>
-    <string name="biography">Biography</string>
+    <string name="biography">Born in January 11, 1994, I was born and raised in Brooklyn NY. My mother and father are devoted parents who
+    have done a lot to raise me and without them I wouldn\'t be where I am at now. I enjoy coding and receiving more knowledge when not in class or at
+    work. In the meantime when I am not studying I enjoy playing video games as well as playing with my kitten who helps relax me.</string>
+    <string name="enrique_project">Github Projects</string>
+    <string name="link_to_github">https://github.com/ccharle/Group_Portfolio_HW_TEAM_ALPHA</string>
 </resources>

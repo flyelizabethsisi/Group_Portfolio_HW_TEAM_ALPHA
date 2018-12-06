@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation_menu" >
+
+    <item
+        android:id="@+id/elizabeth_page"
+        android:title="Elizabeth name"
+
+        android:onClick="optionSelect"/>
+    <item
+        android:id="@+id/enrique_page"
+        android:title="@string/enrique_name"
+        android:onClick="optionSelect"/>
+    <item
+        android:id="@+id/clifford_page"
+        android:title="clifford_name"
+        android:onClick="optionSelect" />
+    <item
+        android:id="@+id/talha_page"
+        android:title="@string/talha_name"
+        android:onClick="optionSelect"/>
+
+</menu>

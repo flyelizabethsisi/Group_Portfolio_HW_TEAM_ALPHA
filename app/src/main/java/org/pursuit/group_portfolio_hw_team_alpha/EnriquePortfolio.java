@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -64,4 +66,30 @@ public class EnriquePortfolio extends AppCompatActivity {
         });
     }
 
+//    The menu and its functions are here
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.popup_menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.talha_option:
+                Intent talhaIntent = new Intent(getApplicationContext(),TalhaPortfolio.class);
+                startActivity(talhaIntent);
+                return true;
+            case R.id.elizabeth_option:
+                Intent elizabethIntent = new Intent(getApplicationContext(),ElizabethPortfolio.class);
+                startActivity(elizabethIntent);
+                return true;
+            case R.id.cliff_option:
+                Intent cliffIntent = new Intent(getApplicationContext(),CliffPortfolio.class);
+                startActivity(cliffIntent);
+                return true;
+             default:
+                 return super.onOptionsItemSelected(item);
+        }
+    }
 }

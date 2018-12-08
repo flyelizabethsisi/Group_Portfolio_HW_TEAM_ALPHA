@@ -11,4 +11,7 @@
     <string name="talha_menu">Talha\'s Portfolio</string>
     <string name="cliff_menu">Clifford\'s Portfolio</string>
     <string name="elizabeth_menu">Elizabeth\'s Portfolio</string>
+    <!--Alert Box Strings-->
+    <string name="alert_title">GOING TO A NEW PAGE</string>
+    <string name="alert_message">Are you sure you would like to go to an external website?</string>
 </resources>

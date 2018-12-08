@@ -3,4 +3,25 @@
     <!--Enrique's Portfolio Texts-->
     <string name="enrique_name">Enrique CRUZ</string>
     <string name="biography">Biography</string>
+
+    <!--Activity_main's Portfolio Texts-->
+    <string name="goal_text_view">The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    The goal of this application is to show four Group Alpha members\' biography.
+    </string>
+
+    <!--Elizabeth's Portfolio Texts-->
+    <string name="elizabeth_name">Elizabeth YU</string>
+    <string name="elizabeth_biography">Elizabeth is an Android Developer fellow at Pursuit.
+        After spending nearly a decade working in Interior Design,
+        Elizabeth decided to change her career in IT.
+        Elizabeth is passionate about Art, Design, and Travel. </string>
+ <string name="github_button">3 Github projects </string>
 </resources>

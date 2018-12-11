@@ -3,15 +3,12 @@
     android:id="@+id/TalhaGitHubMenu">
 
     <item android:id="@+id/Talha_AdventureGame"
-        android:title="@string/talha_project1"
-        android:onClick="website"/>
+        android:title="@string/talha_project1" />
 
     <item android:id="@+id/Talha_JavaBank"
-        android:title="@string/talha_project2"
-        android:onClick="website"/>
+        android:title="@string/talha_project2" />
 
     <item android:id="@+id/Talha_AndroidStoryApp"
-        android:title="@string/talha_project3"
-        android:onClick="website"/>
+        android:title="@string/talha_project3" />
 
 </menu>

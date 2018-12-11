@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".TalhaPortfolio">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,7 @@
         <activity android:name=".ElizabethPortfolio" />
         <activity android:name=".CliffPortfolio" />
         <activity android:name=".EnriquePortfolio" />
-        <activity android:name=".TalhaPortfolio" />
+        <!--<activity android:name=".TalhaPortfolio" />-->
         <activity android:name=".Splash"></activity>
     </application>
 

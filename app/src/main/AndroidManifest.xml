@@ -19,8 +19,12 @@
         <activity android:name=".ElizabethPortfolio" />
         <activity android:name=".CliffPortfolio" />
         <activity android:name=".EnriquePortfolio" />
-        <!--<activity android:name=".TalhaPortfolio" />-->
-        <activity android:name=".Splash"></activity>
+        <!-- <activity android:name=".TalhaPortfolio" /> -->
+        <activity android:name=".Splash" />
+        <activity
+            android:name=".NavigationMenu"
+            android:label="@string/title_activity_navigation_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

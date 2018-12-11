@@ -3,11 +3,21 @@
     <!--Enrique's Portfolio Texts-->
     <string name="enrique_name">Enrique CRUZ</string>
     <string name="biography">Biography</string>
+    <!--Elizabeth's Portfoilo Texts-->
+    <string name="elizabeth_name">Elizabeth Yu</string>
+    <!--Clifford's Portfolio Texts-->
+    <string name="clifford_name">Clifford Charles</string>
     <!--Talha's Portfolio Texts-->
     <string name="talha_name">Talha Rahman</string>
     <string name="talha_bio">Biography</string>
     <string name="talha_project1">Adventure Game</string>
     <string name="talha_project2">Java Bank</string>
     <string name="talha_project3">Android Story App</string>
+
+    <!--Navigation Menu texts-->
+    <string name="title_activity_navigation_menu">NavigationMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Portfolios</string>
 
 </resources>

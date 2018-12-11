@@ -3,6 +3,9 @@ package org.pursuit.group_portfolio_hw_team_alpha;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.PopupMenu;
 import android.view.Menu;
@@ -17,9 +20,27 @@ public class TalhaPortfolio extends AppCompatActivity implements PopupMenu.OnMen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_talha_portfolio);
 
+        Menu navMenu = findViewById(R.id.action_settings);
+        DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
+        NavigationView navigationView = findViewById(R.id.nav_view);
+
         Button talha_github = findViewById(R.id.button1);
-        Menu menu = findViewById(R.id.talha_github_menu);
-        talha_github.setOnClickListener(this); //setting onCLick to Activity
+        talha_github.setOnClickListener(this);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.talha_email);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Email = new Intent(Intent.ACTION_SEND);
+                Email.setType("text/email");
+                Email.putExtra(Intent.EXTRA_EMAIL,
+                        new String[]{"talharahman@pursuit.org"});  //developer 's email
+                Email.putExtra(Intent.EXTRA_SUBJECT,
+                        "Hello Talha"); // Email 's Subject
+                Email.putExtra(Intent.EXTRA_TEXT, "Dear Talha," + "");  //Email 's Greeting text
+                startActivity(Intent.createChooser(Email, "Send Message:"));
+            }
+        });
     }
 
     @Override
@@ -45,6 +66,5 @@ public class TalhaPortfolio extends AppCompatActivity implements PopupMenu.OnMen
         TalhaGitMenu.inflate(R.menu.talha_github_menu); //to the ID assigned to your menu in the xml
         TalhaGitMenu.show();
     }
-
 
 }

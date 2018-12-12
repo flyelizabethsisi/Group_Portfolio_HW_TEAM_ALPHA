@@ -6,19 +6,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/enqrique_page"
-            android:icon="@mipmap/ic_enrique"
             android:title="@string/enrique_name" />
         <item
             android:id="@+id/elizabeth_page"
-            android:icon="@mipmap/ic_elizabeth"
             android:title="@string/elizabeth_name" />
         <item
             android:id="@+id/cliff_page"
-            android:icon="@mipmap/ic_clifford"
             android:title="@string/clifford_name" />
         <item
-            android:id="@+id/talhe_page"
-            android:icon="@mipmap/ic_talha"
+            android:id="@+id/talha_page"
             android:title="@string/talha_name" />
     </group>
 

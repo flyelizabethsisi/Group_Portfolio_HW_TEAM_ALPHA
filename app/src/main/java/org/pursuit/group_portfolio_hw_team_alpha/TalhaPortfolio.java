@@ -22,7 +22,7 @@ public class TalhaPortfolio extends AppCompatActivity implements PopupMenu.OnMen
         TextView talhaBio = findViewById(R.id.talha_bio);
         talhaBio.setMovementMethod(new ScrollingMovementMethod()); // This is a scroll view
 
-        Button talha_github = findViewById(R.id.button1);
+        Button talha_github = findViewById(R.id.talha_gitbutton);
         talha_github.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.talha_email);

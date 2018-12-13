@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,8 @@
         <activity android:name=".CliffPortfolio" />
         <activity android:name=".EnriquePortfolio" />
         <activity android:name=".TalhaPortfolio" />
-        <activity android:name=".Splash"></activity>
+        <activity android:name=".MainActivity"> </activity>
+        <!--<activity android:name=".Splash"></activity>-->
     </application>
 
 </manifest>

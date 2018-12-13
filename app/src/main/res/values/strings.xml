@@ -8,13 +8,13 @@
     <string name="enrique_project">Github Projects</string>
     <string name="link_to_github">https://github.com/ccharle/Group_Portfolio_HW_TEAM_ALPHA</string>
     <!--Menu Names-->
+    <string name ="enrique_menu">Enrique\'s Portfolio</string>
     <string name="talha_menu">Talha\'s Portfolio</string>
     <string name="cliff_menu">Clifford\'s Portfolio</string>
     <string name="elizabeth_menu">Elizabeth\'s Portfolio</string>
     <!--Alert Box Strings-->
     <string name="alert_title">GOING TO A NEW PAGE</string>
     <string name="alert_message">Are you sure you would like to go to an external website?</string>
-    <string name="biography">Biography</string>
 
     <!--Activity_main's Portfolio Texts-->
     <string name="goal_text_view">The goal of this application is to show four Group Alpha members\' biography.
@@ -36,4 +36,7 @@
         Elizabeth decided to change her career in IT.
         Elizabeth is passionate about Art, Design, and Travel. </string>
  <string name="github_button">3 Github projects </string>
+    <string name="elizabeth_project1">EY Restaurant</string>
+    <string name="elizabeth_project2">Java Bank</string>
+    <string name="elizabeth_project3">Android Story App</string>
 </resources>

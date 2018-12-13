@@ -1,5 +1,6 @@
 package org.pursuit.group_portfolio_hw_team_alpha;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -9,6 +10,7 @@ import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -59,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ElizabethPortfolio.class);
                 startActivity(intent);
+                Log.d(intent.toString(), "ELIZABETH PAGE ");
 
             }
         });
@@ -72,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("ResourceAsColor")
     public void borderColors() {
         ShapeDrawable sd = new ShapeDrawable();
         sd.setShape(new RectShape());

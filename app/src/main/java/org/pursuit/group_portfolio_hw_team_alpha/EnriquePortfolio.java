@@ -101,13 +101,15 @@ public class EnriquePortfolio extends AppCompatActivity {
     }
 
 //    The menu and its functions are here along with more options on the menu
-    @Override
+
+
+   /* @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.popup_menu,menu);
         return true;
-    }
+    }*/
 
-    @Override
+   /* @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.talha_option:
@@ -125,5 +127,5 @@ public class EnriquePortfolio extends AppCompatActivity {
              default:
                  return super.onOptionsItemSelected(item);
         }
-    }
+    }*/
 }

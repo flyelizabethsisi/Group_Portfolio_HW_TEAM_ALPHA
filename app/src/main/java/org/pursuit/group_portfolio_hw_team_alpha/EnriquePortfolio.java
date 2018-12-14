@@ -1,5 +1,6 @@
 package org.pursuit.group_portfolio_hw_team_alpha;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
@@ -11,16 +12,14 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
-import java.net.URI;
 
 public class EnriquePortfolio extends AppCompatActivity {
     private TextView bioTextView;
@@ -43,9 +42,10 @@ public class EnriquePortfolio extends AppCompatActivity {
         backToMenuButton = findViewById(R.id.imageButton2);
         bioTextView = findViewById(R.id.textView9);
         gitProjectButton = findViewById(R.id.button2);
-        linkToGithubString = getResources().getString(R.string.link_to_github);
+        linkToGithubString = getResources().getString(R.string.link_to_github_1);
 
         bioTextView.setMovementMethod(new ScrollingMovementMethod());       // This is a scroll view
+        registerForContextMenu(gitProjectButton);
 
     }
 
@@ -53,7 +53,7 @@ public class EnriquePortfolio extends AppCompatActivity {
         backToMenuButton.setOnClickListener(new View.OnClickListener() {    // This button goes back to the Home Page
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                Intent intent = new Intent(v.getContext(),MainActivity.class);
                 startActivity(intent);
             }
         });
@@ -83,10 +83,7 @@ public class EnriquePortfolio extends AppCompatActivity {
                         goToProjects();
                     }
                 });
-
-
                 gitAlertBuilder.show();
-
             }
         });
     }
@@ -125,5 +122,10 @@ public class EnriquePortfolio extends AppCompatActivity {
              default:
                  return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
     }
 }

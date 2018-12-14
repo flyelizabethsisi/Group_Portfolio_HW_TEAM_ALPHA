@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/github_1"
+          android:title="@string/link_to_github_1"></item>
+
+    <item android:id="@+id/github_2"
+          android:title="@string/link_to_github_2"></item>
+
+    <item android:id="@+id/github_3"
+          android:title="@string/link_to_github_3"></item>
+
+</menu>

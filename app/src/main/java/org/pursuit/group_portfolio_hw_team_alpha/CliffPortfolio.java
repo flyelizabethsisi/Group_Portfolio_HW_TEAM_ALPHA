@@ -1,7 +1,7 @@
 package org.pursuit.group_portfolio_hw_team_alpha;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 public class CliffPortfolio extends AppCompatActivity {
 

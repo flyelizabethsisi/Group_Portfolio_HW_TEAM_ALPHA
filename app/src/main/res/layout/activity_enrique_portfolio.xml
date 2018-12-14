@@ -13,9 +13,15 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         app:srcCompat="@drawable/enrique1" />
     <!--The textview that has Enrique's name ontop-->
+=======
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        <!--app:srcCompat="@drawable/enrique1" />-->
+
+>>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -31,8 +37,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+<<<<<<< HEAD
     <!--The textview has Enrique's biography-->
     <TextView
+=======
+
+     <TextView
+>>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -61,10 +72,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+<<<<<<< HEAD
     <!--This button goes back to the home page-->
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/ic_media_rew" />
+=======
+
+
+
+
+>>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
 </android.support.constraint.ConstraintLayout>

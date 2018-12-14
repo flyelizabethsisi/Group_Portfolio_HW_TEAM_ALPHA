@@ -1,14 +1,10 @@
 package org.pursuit.group_portfolio_hw_team_alpha;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.Window;
-
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class Splash extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 3000;

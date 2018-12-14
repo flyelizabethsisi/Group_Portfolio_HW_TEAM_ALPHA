@@ -7,20 +7,14 @@ import android.graphics.Paint;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.RectShape;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
-
-import java.net.URI;
 
 public class EnriquePortfolio extends AppCompatActivity {
     private TextView bioTextView;
@@ -40,9 +34,8 @@ public class EnriquePortfolio extends AppCompatActivity {
     }
 
     public void setReferences(){
-        backToMenuButton = findViewById(R.id.imageButton2);
-        bioTextView = findViewById(R.id.textView9);
-        gitProjectButton = findViewById(R.id.button2);
+        bioTextView = findViewById(R.id.enrique_text);
+        gitProjectButton = findViewById(R.id.enrique_github_menu);
         linkToGithubString = getResources().getString(R.string.link_to_github);
 
         bioTextView.setMovementMethod(new ScrollingMovementMethod());       // This is a scroll view
@@ -102,30 +95,4 @@ public class EnriquePortfolio extends AppCompatActivity {
 
 //    The menu and its functions are here along with more options on the menu
 
-
-   /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.popup_menu,menu);
-        return true;
-    }*/
-
-   /* @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.talha_option:
-                Intent talhaIntent = new Intent(getApplicationContext(),TalhaPortfolio.class);
-                startActivity(talhaIntent);
-                return true;
-            case R.id.elizabeth_option:
-                Intent elizabethIntent = new Intent(getApplicationContext(),ElizabethPortfolio.class);
-                startActivity(elizabethIntent);
-                return true;
-            case R.id.cliff_option:
-                Intent cliffIntent = new Intent(getApplicationContext(),CliffPortfolio.class);
-                startActivity(cliffIntent);
-                return true;
-             default:
-                 return super.onOptionsItemSelected(item);
-        }
-    }*/
 }

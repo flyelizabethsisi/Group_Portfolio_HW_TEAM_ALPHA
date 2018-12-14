@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    android:id="@+id/cliff_github_menu">
+    <item android:id="@+id/elizabeth_EYrestaurant"
+        android:title="@string/elizabeth_project1" />
+    <item android:id="@+id/elizabeth_JavaBank"
+        android:title="@string/elizabeth_project2" />
+    <item android:id="@+id/elizabeth_AndroidStoryApp"
+        android:title="@string/elizabeth_project3" />
+</menu>
+

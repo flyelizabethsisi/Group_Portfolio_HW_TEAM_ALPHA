@@ -1,30 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <TextView
-        android:id="@+id/goal_textView"
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="30dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:background="@color/colorPrimaryDark"
-        android:fontFamily="serif-monospace"
-        android:scrollbars="vertical"
-        android:text="@string/goal_text_view"
-        android:textColor="@color/colorAccent"
-        android:gravity="center"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/elizabeth_imageView" />
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/goal_textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:scrollbars="vertical"
+            android:text="@string/goal_text_view"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/elizabeth_imageView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="96dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="100dp"
+            android:fontFamily="serif-monospace"
+            android:text="Goal of app: This app is for..."
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/elizabeth_imageView" />
 
     <ImageView
         android:id="@+id/logo_imageView"
@@ -48,7 +75,8 @@
         app:layout_constraintEnd_toStartOf="@+id/talha_imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cliffordcharles1" />
+        app:srcCompat="@drawable/cliff"/>
+       <!-- app:srcCompat="@drawable/cliffordcharles1" />-->
 
     <ImageView
         android:id="@+id/elizabeth_imageView"
@@ -60,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/enrique_imageView"
         app:layout_constraintTop_toBottomOf="@+id/logo_imageView"
-        app:srcCompat="@drawable/eliz1" />
+        app:srcCompat="@drawable/elizabeth" />
 
     <ImageView
         android:id="@+id/enrique_imageView"
@@ -72,7 +100,7 @@
         app:layout_constraintEnd_toStartOf="@+id/elizabeth_imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo_imageView"
-        app:srcCompat="@drawable/enrique1" />
+        app:srcCompat="@drawable/enrique" />
 
     <ImageView
         android:id="@+id/talha_imageView"
@@ -84,7 +112,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/cliff_imageView"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/talha1" />
+        app:srcCompat="@drawable/talha" />
 
 
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_navigation_menu"
+        app:itemBackground="@drawable/hex_background"
+        app:menu="@menu/activity_navigation_menu_drawer" />
+
+
+</android.support.v4.widget.DrawerLayout>

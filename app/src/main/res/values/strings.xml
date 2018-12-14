@@ -2,7 +2,7 @@
     <string name="app_name">Group_Portfolio_HW_Team_Alpha</string>
     <!--Enrique's Portfolio Texts-->
     <string name="enrique_name">Enrique CRUZ</string>
-    <string name="biography">Born in January 11, 1994, I was born and raised in Brooklyn NY. My mother and father are devoted parents who
+    <string name="enrique_biography">Born in January 11, 1994, I was born and raised in Brooklyn NY. My mother and father are devoted parents who
     have done a lot to raise me and without them I wouldn\'t be where I am at now. I enjoy coding and receiving more knowledge when not in class or at
     work. In the meantime when I am not studying I enjoy playing video games as well as playing with my kitten who helps relax me.</string>
     <string name="enrique_project">Github Projects</string>
@@ -18,25 +18,44 @@
 
     <!--Activity_main's Portfolio Texts-->
     <string name="goal_text_view">The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
-    The goal of this application is to show four Group Alpha members\' biography.
+
+
     </string>
 
     <!--Elizabeth's Portfolio Texts-->
-    <string name="elizabeth_name">Elizabeth YU</string>
     <string name="elizabeth_biography">Elizabeth is an Android Developer fellow at Pursuit.
+        Elizabeth was born in Seoul, South Korea, moved to States when she was 14 years old.
+        Elizabeth used to live in Seattle and Los Angeles before she moved to NYC.
         After spending nearly a decade working in Interior Design,
         Elizabeth decided to change her career in IT.
-        Elizabeth is passionate about Art, Design, and Travel. </string>
- <string name="github_button">3 Github projects </string>
+        Elizabeth is passionate about Art, Design, and Travel. Elizabeth\'s hobbies are going to
+    art museums and painting. </string>
+    <string name = "cliff_biography">Cliff is up and coming software developer with attention
+        to detail and user experience, Always learning, and improving. Cliff
+        has invested  interest in skateboarding, boxing, video games and to more
+        seamlessly blend tech into everyday modern life, catch me dying at the hospital,
+        a 6ft tall monster. Straight beast.</string>
+    <string name="github_button">3 Github projects </string>
     <string name="elizabeth_project1">EY Restaurant</string>
     <string name="elizabeth_project2">Java Bank</string>
     <string name="elizabeth_project3">Android Story App</string>
+=======
+    <!--Elizabeth's Portfoilo Texts-->
+    <string name="elizabeth_name">Elizabeth YU</string>
+    <!--Clifford's Portfolio Texts-->
+    <string name="clifford_name">Clifford CHARLES</string>
+    <!--Talha's Portfolio Texts-->
+    <string name="talha_name">Talha RAHMAN</string>
+    <string name="talha_bio">Biography</string>
+    <string name="talha_project1">Adventure Game</string>
+    <string name="talha_project2">Java Bank</string>
+    <string name="talha_project3">Android Story App</string>
+
+    <!--Navigation Menu texts-->
+    <string name="title_activity_navigation_menu">NavigationMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Portfolios</string>
+
+>>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
 </resources>

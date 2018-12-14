@@ -16,12 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".ElizabethPortfolio" />
         <activity android:name=".CliffPortfolio" />
         <activity android:name=".EnriquePortfolio" />
         <activity android:name=".TalhaPortfolio" />
         <activity android:name=".MainActivity"> </activity>
         <!--<activity android:name=".Splash"></activity>-->
+=======
+        <activity android:name=".ElizabethPortfolio"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CliffPortfolio"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".EnriquePortfolio"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".TalhaPortfolio"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Splash" />
+>>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
     </application>
 
 </manifest>

@@ -6,61 +6,123 @@
     android:layout_height="match_parent"
     tools:context=".CliffPortfolio">
 
+
+        <ImageView
+            android:id="@+id/cliff_newyorkView"
+            android:layout_width="585dp"
+            android:layout_height="266dp"
+            android:layout_marginTop="256dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cliff_photobackground"
+            app:layout_constraintVertical_bias="0.492"
+            app:srcCompat="@drawable/trippy_skyline" />
+
+
     <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="235dp"
-        android:layout_height="242dp"
-        android:layout_marginTop="16dp"
+        android:id="@+id/cliff_photobackground"
+        android:layout_width="472dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:srcCompat="@drawable/cliffordcharles" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hex_background" />
+
+        <ImageView
+            android:id="@+id/cliffphoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cliff_name"
+            app:srcCompat="@drawable/cliff"
+            android:contentDescription="TODO" />
 
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="monospace"
-        android:text="Clifford CHARLES"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/cliff_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="monospace"
+            android:text="@string/clifford_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="14dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="161dp"
-        android:fontFamily="monospace"
-        android:text="Hello.....Here is my biography..."
-        android:textColor="@color/colorAccent"
+        <ScrollView
+            android:id="@+id/cliff_scroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cliffphoto">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cliffTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="18sp"
+                    android:fontFamily="serif-monospace"
+                    android:scrollbars="vertical"
+                    android:text="@string/cliff_biography"
+                    android:textColor="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cliffphoto" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cliff_email"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="86dp"
+        app:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+        app:layout_constraintTop_toTopOf="@+id/cliff_newyorkView"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="171dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="16dp"
-        android:background="@color/colorPrimary"
-        android:fontFamily="monospace"
-        android:text="3 Github projects"
-        android:textColor="@android:color/white"
+        android:id="@+id/cliff_github_menu"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/github_logo"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cliff_scroll"
+        app:srcCompat="@drawable/github_logo" />
 
-
-</android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>

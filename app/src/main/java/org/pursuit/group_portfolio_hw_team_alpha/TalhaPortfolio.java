@@ -19,10 +19,10 @@ public class TalhaPortfolio extends AppCompatActivity implements PopupMenu.OnMen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_talha_portfolio);
 
-        TextView talhaBio = findViewById(R.id.talha_bio);
+        TextView talhaBio = findViewById(R.id.talha_text);
         talhaBio.setMovementMethod(new ScrollingMovementMethod()); // This is a scroll view
 
-        Button talha_github = findViewById(R.id.talha_gitbutton);
+        Button talha_github = findViewById(R.id.talha_github_menu);
         talha_github.setOnClickListener(this);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.talha_email);

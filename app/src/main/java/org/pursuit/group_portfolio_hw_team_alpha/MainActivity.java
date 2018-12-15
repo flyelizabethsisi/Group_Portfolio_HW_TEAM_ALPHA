@@ -51,8 +51,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toggle.syncState();
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setHomeAsUpIndicator(R.drawable.ic_hamburger_menu);
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        if (actionBar != null) {
+            actionBar.setHomeAsUpIndicator(R.drawable.ic_hamburger_menu);
+        }
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
@@ -116,7 +120,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ElizabethPortfolio.class);
                 startActivity(intent);
-                Log.d(intent.toString(), "ELIZABETH PAGE ");
 
             }
         });
@@ -135,7 +138,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         ShapeDrawable sd = new ShapeDrawable();
         sd.setShape(new RectShape());
         sd.getPaint().setColor(R.color.colorAccent);
-        sd.getPaint().setStrokeWidth(10f);
+        sd.getPaint().setStrokeWidth(5f);
         sd.getPaint().setStyle(Paint.Style.STROKE);
         goalAppText.setBackground(sd);
     }

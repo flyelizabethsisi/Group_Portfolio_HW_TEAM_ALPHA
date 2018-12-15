@@ -1,15 +1,12 @@
 package org.pursuit.group_portfolio_hw_team_alpha;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.PopupMenu;
+import android.text.method.ScrollingMovementMethod;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -24,11 +21,14 @@ public class ElizabethPortfolio extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_elizabeth_portfolio);
+        bioTextView = findViewById(R.id.elizabeth_text);
 
-        setBorderColor();
+
+        // setBorderColor();
 
         Button GitHubButton = findViewById(R.id.elizabeth_github_menu);
         GitHubButton.setOnClickListener(this);
+        bioTextView.setMovementMethod(new ScrollingMovementMethod());
 
         fab = (FloatingActionButton) findViewById(R.id.elizabeth_email);
 
@@ -77,14 +77,14 @@ public class ElizabethPortfolio extends AppCompatActivity implements View.OnClic
     }
 
 
-    public void setBorderColor() {
+/*    public void setBorderColor() {
         ShapeDrawable sd = new ShapeDrawable();
         sd.setShape(new RectShape());
         sd.getPaint().setColor(Color.BLACK);
         sd.getPaint().setStrokeWidth(1f);
         sd.getPaint().setStyle(Paint.Style.STROKE);
         bioTextView.setBackground(sd);
-    }
+    }*/
 
 
 }

@@ -3,59 +3,54 @@
     <!--Enrique's Portfolio Texts-->
     <string name="enrique_name">Enrique CRUZ</string>
     <string name="enrique_biography">Born in January 11, 1994, I was born and raised in Brooklyn NY. My mother and father are devoted parents who
-    have done a lot to raise me and without them I wouldn\'t be where I am at now. I enjoy coding and receiving more knowledge when not in class or at
-    work. In the meantime when I am not studying I enjoy playing video games as well as playing with my kitten who helps relax me.</string>
-    <string name="enrique_project">Github Projects</string>
-    <string name="link_to_github">https://github.com/ccharle/Group_Portfolio_HW_TEAM_ALPHA</string>
+        have done a lot to raise me and without them I wouldn\'t be where I am at now. I enjoy coding and receiving more knowledge when not in class or at
+        work. In the meantime when I am not studying I enjoy playing video games as well as playing with my kitten who helps relax me.</string>
+    <string name="enrique_project1">Mad Libs</string>
+    <string name="enrique_project2">Bank Teller</string>
+    <string name="enrique_project3">Adventure Game</string>
     <!--Menu Names-->
-    <string name ="enrique_menu">Enrique\'s Portfolio</string>
+    <string name="enrique_menu">Enrique\'s Portfolio</string>
     <string name="talha_menu">Talha\'s Portfolio</string>
     <string name="cliff_menu">Clifford\'s Portfolio</string>
     <string name="elizabeth_menu">Elizabeth\'s Portfolio</string>
-    <!--Alert Box Strings-->
-    <string name="alert_title">GOING TO A NEW PAGE</string>
-    <string name="alert_message">Are you sure you would like to go to an external website?</string>
-
     <!--Activity_main's Portfolio Texts-->
-    <string name="goal_text_view">The goal of this application is to show four Group Alpha members\' biography.
-
-
-    </string>
-
+    <string name="title_main"> The goal of this application : </string>
+    <string name="goal_text_view"> Life gives us methods… we pass in the arguments.
+        We are a group of creative and talented individuals eager to unlock our potential
+        in the tech world. Although we come from different branches of life, we pushed ourselves
+        to commit to this master branch despite the conflicts we faced. Who knows where the
+        future will take us, but for now we are in this programming journey together -
+        and best believe Group Alpha is ready for the challenge!</string>
     <!--Elizabeth's Portfolio Texts-->
-    <string name="elizabeth_biography">Elizabeth is an Android Developer fellow at Pursuit.
-        Elizabeth was born in Seoul, South Korea, moved to States when she was 14 years old.
-        Elizabeth used to live in Seattle and Los Angeles before she moved to NYC.
-        After spending nearly a decade working in Interior Design,
-        Elizabeth decided to change her career in IT.
-        Elizabeth is passionate about Art, Design, and Travel. Elizabeth\'s hobbies are going to
-    art museums and painting. </string>
-    <string name = "cliff_biography">Cliff is up and coming software developer with attention
-        to detail and user experience, Always learning, and improving. Cliff
-        has invested  interest in skateboarding, boxing, video games and to more
-        seamlessly blend tech into everyday modern life, catch me dying at the hospital,
-        a 6ft tall monster. Straight beast.</string>
-    <string name="github_button">3 Github projects </string>
+    <string name="elizabeth_biography">My name is Elizabeth and I am an Android Developer fellow at Pursuit.
+        I was born in Seoul, South Korea, moved to States when I was 14 years old. I used to live in Seattle and Los Angeles before I moved to NYC.
+        After spending nearly a decade working in Interior Design, I decided to change her career in IT. I am passionate about Art,
+        Design, and Travel. My hobbies are going to art museums and painting.</string>
     <string name="elizabeth_project1">EY Restaurant</string>
     <string name="elizabeth_project2">Java Bank</string>
     <string name="elizabeth_project3">Android Story App</string>
-=======
-    <!--Elizabeth's Portfoilo Texts-->
     <string name="elizabeth_name">Elizabeth YU</string>
     <!--Clifford's Portfolio Texts-->
     <string name="clifford_name">Clifford CHARLES</string>
+    <string name="cliff_biography">Cliff is up and coming software developer with great attention
+        to detail and the user experience. Always learning and improving, he is interested in seamlessly blending tech
+        into everyday modern life. Cliff is also invested in skateboarding, boxing, and video games. You can catch him still putting in work while dying in the hospital.
+        A 6ft tall monster. Straight beast.</string>
+    <string name="cliff_project1">Banking Terminal</string>
+    <string name="cliff_project2">Mad Libs</string>
+    <string name="cliff_project3">Pursuit Homework</string>
     <!--Talha's Portfolio Texts-->
     <string name="talha_name">Talha RAHMAN</string>
-    <string name="talha_bio">Biography</string>
+    <string name="talha_biography">My name is Talha and I am an aspiring Android developer here at Pursuit. As a native New Yorker,
+        I have a genuine curiosity in exploring different cultures and neighborhoods and am always surprised at the new things I discover.
+        I am interested in understanding and trying to solve different problems, and in particular I plan to work on transportation systems to
+        help move and improve the lives of everyday people in cities like New York.</string>
     <string name="talha_project1">Adventure Game</string>
     <string name="talha_project2">Java Bank</string>
     <string name="talha_project3">Android Story App</string>
-
     <!--Navigation Menu texts-->
     <string name="title_activity_navigation_menu">NavigationMenu</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Portfolios</string>
-
->>>>>>> fe4edf8b52ff826e8b5ec7d00b24b7219b5c87bd
 </resources>

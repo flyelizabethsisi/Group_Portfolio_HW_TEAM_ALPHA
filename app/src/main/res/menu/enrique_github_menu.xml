@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Mad_Libbs"
+        android:title="@string/enrique_project1" />
+    <item android:id="@+id/Bank_Teller"
+        android:title="@string/enrique_project2" />
+    <item android:id="@+id/Adventure_Game"
+        android:title="@string/enrique_project3" />
+
+</menu>

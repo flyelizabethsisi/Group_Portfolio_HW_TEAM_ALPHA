@@ -55,7 +55,7 @@
             android:layout_marginEnd="16dp"
             android:fontFamily="monospace"
             android:text="@string/clifford_name"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimary"
             android:textSize="22sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -81,14 +81,15 @@
                 <TextView
                     android:id="@+id/cliffTextView"
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
+                    android:layout_height="150dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
+                    android:textSize="18sp"
                     android:fontFamily="serif-monospace"
                     android:scrollbars="vertical"
                     android:text="@string/cliff_biography"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/colorPrimary"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/cliffphoto" />
@@ -97,31 +98,31 @@
         </ScrollView>
 
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/cliff_email"
-            android:layout_width="39dp"
-            android:layout_height="43dp"
-            android:layout_gravity="bottom|end"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="64dp"
-            android:layout_marginBottom="32dp"
-            app:backgroundTint="@color/colorPrimaryDark"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/cliff_newyorkView"
-            app:srcCompat="@android:drawable/ic_dialog_email" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/cliff_email"
+        android:layout_width="39dp"
+        android:layout_height="43dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="86dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cliff_newyorkView"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-        <Button
-            android:id="@+id/cliff_github_menu"
-            android:layout_width="84dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="64dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="24dp"
-            android:background="@drawable/github_logo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-            app:srcCompat="@drawable/github_logo" />
+    <Button
+        android:id="@+id/cliff_github_menu"
+        android:layout_width="84dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/github_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cliff_scroll"
+        app:srcCompat="@drawable/github_logo" />
 
     </android.support.constraint.ConstraintLayout>
